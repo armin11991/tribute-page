@@ -24,15 +24,40 @@ h2 {
     font-size: 1.2rem;
 }
 
-.nav-bar {
-    background: rgba(205, 205, 205, 0.3);
+.canvas {
+    background-color: black;
+}
+
+.nav-container {
+    background: rgba(205, 205, 205, 0.1);
     width: 100%;
     height: 9vh;
     position: fixed;
     z-index: 100;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.3);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+#image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.main-photo {    
+    width: 100%;
+    height: 100vh;
 }
 
 .container {
@@ -60,6 +85,16 @@ h2 {
     background-color: black;
 }
 
+.find-more-bttn:hover {
+    border: 1px solid black;
+    background-color: #ffff;
+    color: black;
+}
+
+.a-find-more:hover {
+    color: black;
+}
+
 .section-01 {
     display: grid;
     width: 50%;
@@ -72,11 +107,6 @@ h2 {
 .find-more-bttn {
     margin-top: 3rem;
     padding: 1rem;
-}
-
-.main-photo {
-    width: 100%;
-    height: 100vh;
 }
 
 .section-02 {
@@ -101,7 +131,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #979797;
+    background-color: black;
 }
 
 .left-side {

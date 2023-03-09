@@ -9,40 +9,58 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="canvas">
-        <div class="nav-bar"></div>
+    <main id="main" class="canvas">
+        <div class="nav-bar">
+            <ul class="nav-container">
+                <li><a href="#">interior design</a></li>
+                <li><a href="#">landscaping</a></li>
+                <li><a href="#">photography</a></li>
+                <li><a href="#">front-end developement</a></li>
+              </ul>
+        </div>
         <div class="container">
-            <div class="main-page">
-                <div class="section-01">
+            <div id="main" class="main-page">
+                <div id="title" class="section-01">
                     <h1 class="main-name text">Armando BR</h1><br>
                     <h2 class="myself text">Interior architect & junior front-end developer</h2>
-                    <button class="find-more-bttn text">FIND MORE</button>
+                    <button type="button" class="find-more-bttn text"><a class="a-find-more" href="#find-more-section">FIND MORE</a></button>
                 </div>
-                <div class="section-02">
+                <div id="img-div" class="section-02">
+                    <div hidden>
+                        <img src="#" alt="#" id="image">
+                    </div>
                     <div class="main-photo-container">
-                        <img class="main-photo" src="/main-photo.jpg" alt="portrait-photo">
+                        <img class="main-photo" src="https://images.unsplash.com/photo-1518611540400-6b85a0704342?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="portrait-photo">
+                        <p hidden>image caption</p>
+                        <div id="img-caption" hidden>image caption</div>
                     </div-main-photo>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div id="tribute-info" class="container" hidden>
             <div class="second-page">
-                <h3 class="left-side">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dolor nisi, volutpat quis tempus egestas, condimentum eget ex. Pellentesque sodales efficitur efficitur. Sed ut </h3>
-                <p class="right-side">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus lorem eu purus accumsan aliquet. Sed at ex eget diam pharetra aliquam volutpat nec lectus. Duis vitae lacinia eros, consequat lobortis est. Sed eget dignissim purus. Etiam ut sagittis diam, vitae rhoncus sem. Fusce tortor urna, consectetur a orci sed, faucibus faucibus diam. Maecenas mattis ullamcorper fermentum. Nulla facilisi. Donec enim metus, suscipit ultricies imperdiet ac, blandit vitae ipsum. Phasellus sodales mattis neque, vitae condimentum enim.
+                <div class="left-side">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dolor nisi, volutpat quis tempus egestas, condimentum eget ex. Pellentesque sodales efficitur efficitur.</h3>
+                </div>
+                <div class="right-side">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus lorem eu purus accumsan aliquet. Sed at ex eget diam pharetra aliquam volutpat nec lectus. Duis vitae lacinia eros, consequat lobortis est. Sed eget dignissim purus. Etiam ut sagittis diam, vitae rhoncus sem. Fusce tortor urna, consectetur a orci sed, faucibus faucibus diam. Maecenas mattis ullamcorper fermentum. Nulla facilisi. Donec enim metus, suscipit ultricies imperdiet ac, blandit vitae ipsum. Phasellus sodales mattis neque, vitae condimentum enim.
 
-                    Integer rutrum posuere nisl, dignissim vestibulum ante auctor non. Donec nec orci eget orci consequat rhoncus ut vel ligula. Vestibulum egestas sed turpis eget ultricies. Ut aliquet efficitur orci quis volutpat. Fusce tincidunt luctus accumsan. Morbi commodo cursus lorem nec venenatis.</p>
+                        Integer rutrum posuere nisl, dignissim vestibulum ante auctor non. Donec nec orci eget orci consequat rhoncus ut vel ligula. Vestibulum egestas sed turpis eget ultricies. Ut aliquet efficitur orci quis volutpat. Fusce tincidunt luctus accumsan. Morbi commodo cursus lorem nec venenatis.</p>
+                </div>
             </div>
         </div>
-        <div class="container">
+        <div id="find-more-section" class="container">
             <div class="third-page">
-                <h3 class="left-side text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dolor nisi, volutpat quis tempus egestas, condimentum eget ex. Pellentesque sodales efficitur efficitur. Sed ut </h3>
-                <p class="right-side text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus lorem eu purus accumsan aliquet. Sed at ex eget diam pharetra aliquam volutpat nec lectus. Duis vitae lacinia eros, consequat lobortis est. Sed eget dignissim purus. Etiam ut sagittis diam, vitae rhoncus sem. Fusce tortor urna, consectetur a orci sed, faucibus faucibus diam. Maecenas mattis ullamcorper fermentum. Nulla facilisi. Donec enim metus, suscipit ultricies imperdiet ac, blandit vitae ipsum. Phasellus sodales mattis neque, vitae condimentum enim.
+                <div class="left-side text">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dolor nisi, volutpat quis tempus egestas, condimentum eget ex. Pellentesque sodales efficitur efficitur.</h3>
+                </div>
+                <div class="right-side text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus lorem eu purus accumsan aliquet. Sed at ex eget diam pharetra aliquam volutpat nec lectus. Duis vitae lacinia eros, consequat lobortis est. Sed eget dignissim purus. Etiam ut sagittis diam, vitae rhoncus sem. Fusce tortor urna, consectetur a orci sed, faucibus faucibus diam. Maecenas mattis ullamcorper fermentum. Nulla facilisi. Donec enim metus, suscipit ultricies imperdiet ac, blandit vitae ipsum. Phasellus sodales mattis neque, vitae condimentum enim.
 
-                    Integer rutrum posuere nisl, dignissim vestibulum ante auctor non. Donec nec orci eget orci consequat rhoncus ut vel ligula. Vestibulum egestas sed turpis eget ultricies. Ut aliquet efficitur orci quis volutpat. Fusce tincidunt luctus accumsan. Morbi commodo cursus lorem nec venenatis.</p>
-            </div>
+                        Integer rutrum posuere nisl, dignissim vestibulum ante auctor non. Donec nec orci eget orci consequat rhoncus ut vel ligula. Vestibulum egestas sed turpis eget ultricies. Ut aliquet efficitur orci quis volutpat. Fusce tincidunt luctus accumsan. Morbi commodo cursus lorem nec venenatis.</p>
+                </div>
+                <button hidden><a id="tribute-link" target="_blank" href="#">FIND MORE</a></button>
         </div>
-
-        
-    </div>
+    </main>
 </body>
 </html>
